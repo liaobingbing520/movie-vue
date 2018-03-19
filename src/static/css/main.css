@@ -1,0 +1,17 @@
+#content{
+    margin-top: 46px;
+    margin-bottom: 80px;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.clarfix:after{
+    content:"";
+    clear: both;
+    display: block;
+    visibility: hidden;
+    height: 0;
+    line-height: 0;
+}
